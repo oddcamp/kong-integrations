@@ -10,7 +10,7 @@ class Product
     @id = hash["id"]
     @category = hash["categories"].first["title"]
     @manufacturer = hash["categories"].last["title"]
-    @price = hash["price"] / 100.to_f
+    @price = sprintf('%.2f', hash["price"] / 100.to_f)
     @url = "#{hash["store_url"]}/product/#{hash["slug"]}"
 
     # Optional
