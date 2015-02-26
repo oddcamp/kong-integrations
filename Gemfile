@@ -33,8 +33,8 @@ group :development, :test do
 
   gem 'rspec-rails', '~> 3.2.1'
   gem 'pry-rails', '~> 0.3.3'
-  gem 'vcr'
+  gem 'vcr', '~> 2.9.3'
 end
 
-gem 'faraday'
-gem 'fakeweb'
+gem 'faraday', '~> 0.9.1'
+gem 'fakeweb', '~> 1.3.0'
