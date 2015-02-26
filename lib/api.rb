@@ -1,4 +1,5 @@
 class Api
+
   attr_reader :client, :endpoint
   attr_accessor :store_id
 
@@ -11,4 +12,5 @@ class Api
   def get(uri)
     @client.get("#{endpoint}#{uri}")
   end
+
 end

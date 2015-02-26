@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+
   def index
     products = Product.all
     csv = ProductsCsv.new(products).csv
@@ -8,4 +9,5 @@ class ProductsController < ApplicationController
       format.csv { render :text => csv }
     end
   end
+
 end
