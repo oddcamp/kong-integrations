@@ -1,5 +1,5 @@
 # Tictail -> Prisjakt
-A web app that provides products as csv for Prisjakt.
+A web app that provides Tictail products as csv for Prisjakt.
 
 ## Environments
 
@@ -9,7 +9,8 @@ Production:
 	git remote add heroku git@heroku.com:kong-tictail-prisjakt.git
 
 ## Env variables
-You'll need to set TICTAIL_STORE_ID environment variable, which you can find [here](https://tictail.com/developers/documentation/api-reference/) when you're signed in.
+You'll need to set TICTAIL_STORE_ID environment variable.
+You can find it [here](https://tictail.com/developers/documentation/api-reference/) when you're signed in to your Tictail account.
 
 ## Important
 In order to import category (Kategori) and manufacturer (Tillverkare) to Prisjakt correctly, you'll need to stick with this convention:
@@ -41,8 +42,3 @@ When using for example
 We must add a flag for which app we want to restart. Like this:
 
 	heroku restart --app tictail-prisjakt
-
-or
-
-	heroku restart --app tictail-prisjakt
-
