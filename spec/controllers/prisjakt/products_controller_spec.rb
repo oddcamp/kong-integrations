@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe ProductsController, type: :controller, vcr: true do
+RSpec.describe Prisjakt::ProductsController, type: :controller, vcr: true do
 
   describe "GET #index" do
     it "returns http success" do

@@ -1,0 +1,319 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.tictail.com/v1/stores/ARL/products
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      user-agent:
+      - Faraday v0.9.1
+      accept-encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-allow-headers:
+      - Content-Type, Authorization
+      access-control-allow-methods:
+      - GET, PUT, POST, PATCH, DELETE, OPTIONS
+      access-control-allow-origin:
+      - "*"
+      content-type:
+      - application/json
+      date:
+      - Tue, 03 Mar 2015 13:24:25 GMT
+      server:
+      - gunicorn/0.17.4
+      content-length:
+      - '23983'
+      connection:
+      - Close
+    body:
+      encoding: UTF-8
+      string: "[\n  {\n    \"status\": \"published\", \n    \"store_url\": \"http://www.konginitiative.com\",
+        \n    \"description\": \"HP means strong and light, perfect for today\\u2019s
+        progressive freestyle or powder Ape with a job and some free time. Big guys
+        need light set ups, their snowboards are always big, wide and long so a light
+        construction really makes a difference in the pow, on a chair, or when you
+        are spinning after one of those fancy tricks. NEW! Ultra wide for giant feet.&nbsp;\",
+        \n    \"store_name\": \"The Kong Initiative\", \n    \"store_id\": \"ARL\",
+        \n    \"unlimited\": false, \n    \"created_at\": \"2014-01-28T20:21:48.000000\",
+        \n    \"title\": \"Lib Tech Skunk Ape Horsepower 170 UW (2015)\", \n    \"modified_at\":
+        \"2015-01-09T15:32:24.000000\", \n    \"slug\": \"lib-tech-skunk-ape-horsepower-170-uw\",
+        \n    \"price\": 699000, \n    \"currency\": \"SEK\", \n    \"store_subdomain\":
+        \"konginitiative\", \n    \"variations\": [\n      {\n        \"title\": null,
+        \n        \"modified_at\": \"2014-12-12T15:37:57.000000\", \n        \"created_at\":
+        \"2014-01-28T20:21:48.000000\", \n        \"unlimited\": false, \n        \"id\":
+        \"a96t\", \n        \"quantity\": 3\n      }\n    ], \n    \"images\": [\n
+        \     {\n        \"original_height\": 709, \n        \"sizes\": {\n          \"2000\":
+        \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-d67a46349d244540be67828c47bee20f.jpeg\",
+        \n        \"created_at\": \"2015-01-09T15:32:23.000000\", \n        \"modified_at\":
+        \"2015-01-09T15:32:23.000000\", \n        \"original_width\": 1772, \n        \"id\":
+        \"w6TU\"\n      }\n    ], \n    \"id\": \"7aKe\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Boards\", \n        \"created_at\": \"2014-02-07T12:59:22.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"boards\", \n        \"parent_id\":
+        null, \n        \"product_count\": 5, \n        \"position\": 0, \n        \"id\":
+        \"3D5n\"\n      }, \n      {\n        \"title\": \"Lib Tech\", \n        \"created_at\":
+        \"2014-07-19T12:26:37.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"lib-tech\", \n        \"parent_id\": \"3D5n\", \n        \"product_count\":
+        1, \n        \"position\": 4, \n        \"id\": \"4qZJ\"\n      }\n    ],
+        \n    \"quantity\": 3\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"<span>The Magnum
+        is Nitro's&nbsp;powerful, all-mountain directional &nbsp;board for larger
+        riders with bigger feet and wider stances.<br /><br /><b>Tech specs</b><br
+        /></span><ul><li>Progressive Sidecut</li><li>Powerlite Core</li><li>Bi-Lite
+        Laminates</li><li>Sintered Speed Forumula HD Base</li><li><b>NEW!</b> Roof
+        Chop Camber</li></ul><div><br />Shape: Directional<br />Flex: Mountain<br
+        />Width: Wide<br /></div>\", \n    \"store_name\": \"The Kong Initiative\",
+        \n    \"store_id\": \"ARL\", \n    \"unlimited\": false, \n    \"created_at\":
+        \"2014-02-06T14:45:08.000000\", \n    \"title\": \"Nitro Magnum 171 (2015)\",
+        \n    \"modified_at\": \"2015-01-10T15:20:20.000000\", \n    \"slug\": \"nitro-magnum-171\",
+        \n    \"price\": 439900, \n    \"currency\": \"SEK\", \n    \"store_subdomain\":
+        \"konginitiative\", \n    \"variations\": [\n      {\n        \"title\": null,
+        \n        \"modified_at\": \"2014-12-01T15:09:54.000000\", \n        \"created_at\":
+        \"2014-02-06T14:45:08.000000\", \n        \"unlimited\": false, \n        \"id\":
+        \"arKx\", \n        \"quantity\": 2\n      }\n    ], \n    \"images\": [\n
+        \     {\n        \"original_height\": 712, \n        \"sizes\": {\n          \"2000\":
+        \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-6e23c433a1524aa68b43034fa8f1263b.jpeg\",
+        \n        \"created_at\": \"2015-01-10T15:20:20.000000\", \n        \"modified_at\":
+        \"2015-01-10T15:20:20.000000\", \n        \"original_width\": 1772, \n        \"id\":
+        \"w9zw\"\n      }\n    ], \n    \"id\": \"7kRA\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Boards\", \n        \"created_at\": \"2014-02-07T12:59:22.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"boards\", \n        \"parent_id\":
+        null, \n        \"product_count\": 5, \n        \"position\": 0, \n        \"id\":
+        \"3D5n\"\n      }, \n      {\n        \"title\": \"Nitro\", \n        \"created_at\":
+        \"2014-07-19T12:26:37.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"nitro\", \n        \"parent_id\": \"3D5n\", \n        \"product_count\":
+        2, \n        \"position\": 5, \n        \"id\": \"4qZH\"\n      }\n    ],
+        \n    \"quantity\": 2\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"To provide uncompromised
+        performance for riders with extra large boot sizes, we use our exclusive design
+        technology, to develop the El Grande, the widest board in the world. The elimination
+        of toe and heel drag without sacrificing maneuverability is achieved by combining
+        a maxed out waist width that puts girth under the riders feet where its needed,
+        with our exclusive Omega Sidecut technology, which reduces tip and tail widths
+        and increases edge to edge agility and control. The result is a board that
+        delivers precision handling to all the big kids out there. And to make sure
+        the El Grande is tough enough for the big shreds that ride it, we construct
+        the El Grande with our new Control Plus Wood Core, add Carbon/Kevlar 90 beam
+        Reinforcement for added torsional support, and finish it off with our Warp
+        8 base for toughness and super speed.&nbsp;\", \n    \"store_name\": \"The
+        Kong Initiative\", \n    \"store_id\": \"ARL\", \n    \"unlimited\": false,
+        \n    \"created_at\": \"2014-02-06T15:10:37.000000\", \n    \"title\": \"Elan
+        El Grande 171 (2015)\", \n    \"modified_at\": \"2015-01-10T15:20:49.000000\",
+        \n    \"slug\": \"elan-el-grande-171\", \n    \"price\": 399500, \n    \"currency\":
+        \"SEK\", \n    \"store_subdomain\": \"konginitiative\", \n    \"variations\":
+        [\n      {\n        \"title\": null, \n        \"modified_at\": \"2014-11-18T11:49:22.000000\",
+        \n        \"created_at\": \"2014-07-19T11:43:59.000000\", \n        \"unlimited\":
+        false, \n        \"id\": \"fS7N\", \n        \"quantity\": 0\n      }\n    ],
+        \n    \"images\": [\n      {\n        \"original_height\": 807, \n        \"sizes\":
+        {\n          \"2000\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-9e6bba363aa44c7fbb9334fa2f65b7d8.jpeg\",
+        \n        \"created_at\": \"2015-01-10T15:20:48.000000\", \n        \"modified_at\":
+        \"2015-01-10T15:20:48.000000\", \n        \"original_width\": 1743, \n        \"id\":
+        \"w9zy\"\n      }\n    ], \n    \"id\": \"7kTt\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Boards\", \n        \"created_at\": \"2014-02-07T12:59:22.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"boards\", \n        \"parent_id\":
+        null, \n        \"product_count\": 5, \n        \"position\": 0, \n        \"id\":
+        \"3D5n\"\n      }, \n      {\n        \"title\": \"Elan\", \n        \"created_at\":
+        \"2014-07-19T12:26:35.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"elan\", \n        \"parent_id\": \"3D5n\", \n        \"product_count\":
+        2, \n        \"position\": 3, \n        \"id\": \"4qZK\"\n      }\n    ],
+        \n    \"quantity\": 0\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"<div>Dependability
+        is something that a packed season rider knows all about. The Union Force Snowboard
+        Bindings are something that you can depend on day after day without having
+        to adjust, repair and won't have to worry about. Completely redesigned for
+        2014, this stallion of a binding cannot be broken, always running on lightweight
+        durability and flex. The tough as nails Dupont\\u2122 Zytel\\u00ae ST baseplate
+        brings the Union Lifetime Warranty to the plate because well, frankly, it's
+        never going to break - but if it does, Union has you covered. Every element
+        in this binding is on lock down with max efficiency so you can charge around
+        the mountain carefree. May the force be with you.<br /></div>\", \n    \"store_name\":
+        \"The Kong Initiative\", \n    \"store_id\": \"ARL\", \n    \"unlimited\":
+        false, \n    \"created_at\": \"2014-02-07T13:09:51.000000\", \n    \"title\":
+        \"Union Force (2015)  - Black L/XL\", \n    \"modified_at\": \"2015-02-26T15:01:04.000000\",
+        \n    \"slug\": \"union-force\", \n    \"price\": 249900, \n    \"currency\":
+        \"SEK\", \n    \"store_subdomain\": \"konginitiative\", \n    \"variations\":
+        [\n      {\n        \"title\": null, \n        \"modified_at\": \"2014-12-16T08:59:29.000000\",
+        \n        \"created_at\": \"2014-02-07T13:09:51.000000\", \n        \"unlimited\":
+        false, \n        \"id\": \"atnU\", \n        \"quantity\": 0\n      }\n    ],
+        \n    \"images\": [\n      {\n        \"original_height\": 1024, \n        \"sizes\":
+        {\n          \"2000\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-1e3ce1087e6d45c68c94a715753758db.jpeg\",
+        \n        \"created_at\": \"2014-11-24T15:55:02.000000\", \n        \"modified_at\":
+        \"2014-11-24T15:55:02.000000\", \n        \"original_width\": 1024, \n        \"id\":
+        \"tJj6\"\n      }\n    ], \n    \"id\": \"7mQc\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Bindings\", \n        \"created_at\": \"2014-02-07T13:09:47.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"bindings\", \n        \"parent_id\":
+        null, \n        \"product_count\": 2, \n        \"position\": 1, \n        \"id\":
+        \"3D5F\"\n      }, \n      {\n        \"title\": \"Union Force\", \n        \"created_at\":
+        \"2015-02-26T15:00:50.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"union-force\", \n        \"parent_id\": \"3D5F\", \n        \"product_count\":
+        2, \n        \"position\": 6, \n        \"id\": \"5FT7\"\n      }\n    ],
+        \n    \"quantity\": 0\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"\", \n    \"store_name\":
+        \"The Kong Initiative\", \n    \"store_id\": \"ARL\", \n    \"unlimited\":
+        false, \n    \"created_at\": \"2014-07-19T11:49:36.000000\", \n    \"title\":
+        \"Elan El Grande 167 (2015)\", \n    \"modified_at\": \"2015-01-10T15:21:01.000000\",
+        \n    \"slug\": \"elan-el-grande-167\", \n    \"price\": 399500, \n    \"currency\":
+        \"SEK\", \n    \"store_subdomain\": \"konginitiative\", \n    \"variations\":
+        [\n      {\n        \"title\": null, \n        \"modified_at\": \"2014-11-18T11:49:11.000000\",
+        \n        \"created_at\": \"2014-07-19T11:49:36.000000\", \n        \"unlimited\":
+        false, \n        \"id\": \"fS88\", \n        \"quantity\": 2\n      }\n    ],
+        \n    \"images\": [\n      {\n        \"original_height\": 807, \n        \"sizes\":
+        {\n          \"2000\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-9cc499c4e275472ebb9e8225cd8e4386.jpeg\",
+        \n        \"created_at\": \"2015-01-10T15:21:01.000000\", \n        \"modified_at\":
+        \"2015-01-10T15:21:01.000000\", \n        \"original_width\": 1743, \n        \"id\":
+        \"w9zz\"\n      }\n    ], \n    \"id\": \"aykP\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Boards\", \n        \"created_at\": \"2014-02-07T12:59:22.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"boards\", \n        \"parent_id\":
+        null, \n        \"product_count\": 5, \n        \"position\": 0, \n        \"id\":
+        \"3D5n\"\n      }, \n      {\n        \"title\": \"Elan\", \n        \"created_at\":
+        \"2014-07-19T12:26:35.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"elan\", \n        \"parent_id\": \"3D5n\", \n        \"product_count\":
+        2, \n        \"position\": 3, \n        \"id\": \"4qZK\"\n      }\n    ],
+        \n    \"quantity\": 2\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"<span>The Magnum
+        is Nitro's&nbsp;powerful, all-mountain directional &nbsp;board for larger
+        riders with bigger feet and wider stances.<br /><br /><b>Tech specs</b><br
+        /></span><ul><li>Progressive Sidecut</li><li>Powerlite Core</li><li>Bi-Lite
+        Laminates</li><li>Sintered Speed Forumula HD Base</li><li><b>NEW!</b> Roof
+        Chop Camber</li></ul><div><br />Shape: Directional<br />Flex: Mountain<br
+        />Width: Wide<br /></div>\", \n    \"store_name\": \"The Kong Initiative\",
+        \n    \"store_id\": \"ARL\", \n    \"unlimited\": false, \n    \"created_at\":
+        \"2014-07-19T12:31:23.000000\", \n    \"title\": \"Nitro Magnum 168 (2015)\",
+        \n    \"modified_at\": \"2015-01-10T15:20:33.000000\", \n    \"slug\": \"nitro-magnum-168\",
+        \n    \"price\": 439900, \n    \"currency\": \"SEK\", \n    \"store_subdomain\":
+        \"konginitiative\", \n    \"variations\": [\n      {\n        \"title\": null,
+        \n        \"modified_at\": \"2014-11-18T11:48:44.000000\", \n        \"created_at\":
+        \"2014-07-19T12:31:23.000000\", \n        \"unlimited\": false, \n        \"id\":
+        \"fScp\", \n        \"quantity\": 3\n      }\n    ], \n    \"images\": [\n
+        \     {\n        \"original_height\": 740, \n        \"sizes\": {\n          \"2000\":
+        \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-70a560e9417340809f35d2cd87d11102.jpeg\",
+        \n        \"created_at\": \"2015-01-10T15:20:33.000000\", \n        \"modified_at\":
+        \"2015-01-10T15:20:33.000000\", \n        \"original_width\": 1772, \n        \"id\":
+        \"w9zx\"\n      }\n    ], \n    \"id\": \"aynu\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Boards\", \n        \"created_at\": \"2014-02-07T12:59:22.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"boards\", \n        \"parent_id\":
+        null, \n        \"product_count\": 5, \n        \"position\": 0, \n        \"id\":
+        \"3D5n\"\n      }, \n      {\n        \"title\": \"Nitro\", \n        \"created_at\":
+        \"2014-07-19T12:26:37.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"nitro\", \n        \"parent_id\": \"3D5n\", \n        \"product_count\":
+        2, \n        \"position\": 5, \n        \"id\": \"4qZH\"\n      }\n    ],
+        \n    \"quantity\": 3\n  }, \n  {\n    \"status\": \"published\", \n    \"store_url\":
+        \"http://www.konginitiative.com\", \n    \"description\": \"Dependability
+        is something that a packed season rider knows all about. The Union Force Snowboard
+        Bindings are something that you can depend on day after day without having
+        to adjust, repair and won't have to worry about. Completely redesigned for
+        2014, this stallion of a binding cannot be broken, always running on lightweight
+        durability and flex. The tough as nails Dupont\\u2122 Zytel\\u00ae ST baseplate
+        brings the Union Lifetime Warranty to the plate because well, frankly, it's
+        never going to break - but if it does, Union has you covered. Every element
+        in this binding is on lock down with max efficiency so you can charge around
+        the mountain carefree. May the force be with you.\", \n    \"store_name\":
+        \"The Kong Initiative\", \n    \"store_id\": \"ARL\", \n    \"unlimited\":
+        false, \n    \"created_at\": \"2014-11-24T15:44:10.000000\", \n    \"title\":
+        \"Union Force (2015) - Tacklebox L/XL\", \n    \"modified_at\": \"2015-02-26T15:00:53.000000\",
+        \n    \"slug\": \"union-force-2015-tacklebox-lxl\", \n    \"price\": 249900,
+        \n    \"currency\": \"SEK\", \n    \"store_subdomain\": \"konginitiative\",
+        \n    \"variations\": [\n      {\n        \"title\": null, \n        \"modified_at\":
+        \"2014-11-24T15:44:10.000000\", \n        \"created_at\": \"2014-11-24T15:44:10.000000\",
+        \n        \"unlimited\": false, \n        \"id\": \"mpMg\", \n        \"quantity\":
+        2\n      }\n    ], \n    \"images\": [\n      {\n        \"original_height\":
+        1024, \n        \"sizes\": {\n          \"2000\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=2000\",
+        \n          \"30\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=30\",
+        \n          \"300\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=300\",
+        \n          \"45\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=45\",
+        \n          \"50\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=50\",
+        \n          \"40\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=40\",
+        \n          \"640\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=640\",
+        \n          \"75\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=75\",
+        \n          \"100\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=100\",
+        \n          \"500\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=500\",
+        \n          \"1000\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg?size=1000\"\n
+        \       }, \n        \"url\": \"https://images.ttcdn.co/media/i/product/103026-7c70d724ea414466be957ec727065982.jpeg\",
+        \n        \"created_at\": \"2014-11-24T15:55:17.000000\", \n        \"modified_at\":
+        \"2014-11-24T15:55:17.000000\", \n        \"original_width\": 1024, \n        \"id\":
+        \"tJja\"\n      }\n    ], \n    \"id\": \"dDg2\", \n    \"categories\": [\n
+        \     {\n        \"title\": \"Bindings\", \n        \"created_at\": \"2014-02-07T13:09:47.000000\",
+        \n        \"modified_at\": null, \n        \"slug\": \"bindings\", \n        \"parent_id\":
+        null, \n        \"product_count\": 2, \n        \"position\": 1, \n        \"id\":
+        \"3D5F\"\n      }, \n      {\n        \"title\": \"Union Force\", \n        \"created_at\":
+        \"2015-02-26T15:00:50.000000\", \n        \"modified_at\": null, \n        \"slug\":
+        \"union-force\", \n        \"parent_id\": \"3D5F\", \n        \"product_count\":
+        2, \n        \"position\": 6, \n        \"id\": \"5FT7\"\n      }\n    ],
+        \n    \"quantity\": 2\n  }\n]\n"
+    http_version: '1.1'
+  recorded_at: Tue, 03 Mar 2015 13:24:25 GMT
+recorded_with: VCR 2.9.3

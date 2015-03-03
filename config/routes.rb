@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
-  get 'products' => 'products#index'
-  root 'products#index'
+
+  namespace :prisjakt do
+    get 'products' => 'products#index'
+  end
+
+  namespace :pricerunner do
+    get 'products' => 'products#index'
+  end
+
+
+  root 'prisjakt/products#index'
 end
