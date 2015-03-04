@@ -7,5 +7,7 @@ Rails.application.routes.draw do
     get 'products' => 'products#index'
   end
 
-  root 'prisjakt/products#index'
+  get 'home/index'
+
+  root 'home#index'
 end
