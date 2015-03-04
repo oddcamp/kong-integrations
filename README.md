@@ -1,12 +1,18 @@
-# Tictail -> Prisjakt
-A web app that provides Tictail products as csv for Prisjakt.
+# Kong Integrations
+A web app that provides Tictail products as csv for multiple consumers.
+We currently support Prisjakt and Pricerunner.
+
+## Tictail -> Pricerunner
+[https://kong-integrations.herokuapp.com/pricerunner/products.csv](https://kong-integrations.herokuapp.com/pricerunner/products.csv)
+
+## Tictail -> Prisjakt
+[https://kong-integrations.herokuapp.com/prisjakt/products.csv](https://kong-integrations.herokuapp.com/prisjakt/products.csv)
 
 ## Environments
 
 Production:
-[https://kong-tictail-prisjakt.herokuapp.com/products.csv](https://kong-tictail-prisjakt.herokuapp.com/products.csv)
 
-	git remote add heroku git@heroku.com:kong-tictail-prisjakt.git
+	git remote add heroku git@heroku.com:kong-integrations.git
 
 ## Env variables
 You'll need to set TICTAIL_STORE_ID environment variable.
@@ -41,4 +47,4 @@ When using for example
 
 We must add a flag for which app we want to restart. Like this:
 
-	heroku restart --app tictail-prisjakt
+	heroku restart --app kong-integrations
