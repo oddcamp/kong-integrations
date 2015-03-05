@@ -3,10 +3,10 @@ A web app that provides Tictail products as csv for multiple consumers.
 We currently support Prisjakt and Pricerunner.
 
 ## Tictail -> Pricerunner
-[https://kong-integrations.herokuapp.com/pricerunner/products.csv](https://kong-integrations.herokuapp.com/pricerunner/products.csv)
+[http://integrations.konginitiative.com/pricerunner/products.csv](http://integrations.konginitiative.com/pricerunner/products.csv)
 
 ## Tictail -> Prisjakt
-[https://kong-integrations.herokuapp.com/prisjakt/products.csv](https://kong-integrations.herokuapp.com/prisjakt/products.csv)
+[http://integrations.konginitiative.com/prisjakt/products.csv](http://integrations.konginitiative.com/prisjakt/products.csv)
 
 ## Environments
 
